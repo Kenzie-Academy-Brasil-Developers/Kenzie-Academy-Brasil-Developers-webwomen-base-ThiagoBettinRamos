@@ -1,0 +1,93 @@
+.font-size-1 {
+    font-size: var(--title-1);
+    font-weight: 600;
+}
+ 
+.font-size-2{
+    font-size: var(--title-2);
+    font-weight: 600;
+}
+ 
+.font-size-2 {
+    font-size: var(--title-3);
+    font-weight: 600;
+}
+ 
+.font-size-3{
+    font-size: var(--title-4);
+    font-weight: 600;
+}
+ 
+.font-size-4 {
+    font-size: var(--title-5);
+    font-weight: 600;
+}
+ 
+.font-size-5{
+    font-size: var(--title-6);
+    font-weight:600;
+}
+.font-size-text-1{
+    font-size: var(--text-1);
+    font-weight:400;
+}
+.font-size-text-2{
+    font-size: var(--text-2);
+    font-weight:400;
+}
+.font-size-text-3{
+    font-size: var(--text-3);
+    font-weight:400;
+}
+ 
+.font-color_grey-1 {
+    color: var(--color-grey-1);
+}
+ 
+.font-color_grey-2 {
+    color: var(--color-grey-2);
+}
+ 
+.font-color_grey-3 {
+    color: var(--color-grey-3);
+}
+ 
+.font-color_grey-4 {
+    color: var(--color-grey-4);
+}
+ 
+.font-color_grey-5 {
+    color: var(--color-grey-5);
+}
+ 
+.font-color_grey-6 {
+    color: var(--color-grey-6);
+}
+
+@media(max-width: 991px){
+    :root {
+      --title-9: 1.5rem;
+      --title-8: 1.75rem;
+      --title-7: 1rem;
+      --text-9:  1.125rem;
+    }
+    .mobile-font-size-1 {
+        font-size: var(--title-9);
+        
+    }
+     
+    .mobile-font-size-2{
+        font-size: var(--title-8);
+        
+    }
+     
+    .mobile-font-size-2 {
+        font-size: var(--title-7);
+        
+    }
+
+    .mobile-font-size-3{
+        font-size: var(--text-9);
+    }
+
+  }

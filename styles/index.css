@@ -1,0 +1,68 @@
+.card{
+    padding: 2.375rem;
+    gap: 1.75rem;
+    border-radius: var(--radius-default);
+    background-color: var(--color-grey-6);
+}
+
+.info{
+    gap: 1.25rem;
+}
+.jobs-container{
+    max-width: 60%;
+}
+.jobs-container > ul{
+    gap: 2rem;
+}
+
+aside{
+    max-width: 38%;
+    background-color: var(--color-grey-6);
+    margin-top: 8.428rem;
+    border-radius: var(--radius-default);
+    height: max-content;
+}
+.label{
+    background-color: var(--color-grey-3);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-default);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside-header{
+    padding: 2rem;
+    width: 31.875rem;
+    box-sizing: border-box;
+}
+
+aside > ul > li{
+    padding: 2rem 1.75rem;
+    border-bottom: 2px solid var(--color-grey-5);
+    gap: 1.25rem;
+    width: 31.875rem;
+    box-sizing: border-box;
+}
+.no-job{
+    margin: 2rem;
+    gap: 2rem;
+}
+
+@media(max-width: 991px){
+    .jobs-container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .aside-header{
+        width: 100%;
+    }
+    aside{
+        max-width: 100%;
+    }
+    aside > ul > li{
+        width: 100%;
+    }
+}

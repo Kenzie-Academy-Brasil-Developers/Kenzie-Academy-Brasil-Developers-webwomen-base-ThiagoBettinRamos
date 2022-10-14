@@ -1,0 +1,48 @@
+header {
+    padding: 10rem 6.25rem;
+    background-image: url(../assets/img/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 49.625rem;
+    max-height: 49.625rem;
+    
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.75rem;
+    width: 87.5rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2.5%;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3.75rem;
+    
+}
+.text-header{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@media(max-width: 991px){
+    header{
+        padding: 0 1rem;
+        height: 794px;
+    }
+    .header-container{
+        gap: 1.875rem;
+        padding: 0 1.75%;
+    }
+    .header-info{
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+}

@@ -6,11 +6,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
-img {
-  max-width: 100%;
+img{
+  width: 12.082rem;
 }
-
 :root {
   --color-brand-1: #6741D9;
   --color-brand-2: #5F3DC4;
@@ -35,14 +33,25 @@ img {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--color-grey-5);
+}
+
+button{
+  cursor: pointer;
 }
 
 .container {
-  width: 76rem;
+  width: 87.5rem;
   max-width: 100%;
   margin: 0 auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+ul{
+  list-style: none;
+ 
 }
 
 @media(max-width: 991px){

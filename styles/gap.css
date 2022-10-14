@@ -1,0 +1,17 @@
+.gap-trash{
+    gap: 1.625rem;
+}
+.gap-1-28{
+    gap:1.125rem;
+}
+.margin-h2{
+    margin-bottom: 3.375rem;
+}
+.margin-top{
+    margin-top: 2.875rem;
+}
+@media(max-width: 991px){
+    .gap-1-28{
+        gap:1.125rem;
+    }
+}
